@@ -1,0 +1,7 @@
+## Interface: 70100
+## Title: Giered
+## Notes: Shows tips on dungeon loot rolls.
+## Author: Meep
+## Version: 0.1
+
+Giered.lua
