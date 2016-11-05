@@ -11,6 +11,6 @@ LootRollFrame:RegisterEvent("START_LOOT_ROLL")
 LootRollFrame:SetScript("OnEvent", function(self, event, id)
 	--get loot id and use to find name
 	--local lootID, lootTimer = ...
-	--local texture, lootName, count, quality, bindOnPickUp = GetLootRollItemInfo(lootID)
-	--ChatFrame1:AddMessage('NEW LOOT ROLL ' ..lootName)
+	local texture, lootName, count, quality, bindOnPickUp = GetLootRollItemInfo(id)
+	ChatFrame1:AddMessage('NEW LOOT ROLL ' ..lootName)
 end)
